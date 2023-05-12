@@ -5,16 +5,16 @@ This assumes an operator has been created with a tool like operator-sdk and test
 This also assumes that the operator follows the directory structure of the operator-sdk
 
 Operatorhub.io has Prerequisites in place for the operator to be published
-    1. The operator must be in a public container registry
-    2. The operator must be in a public git repository
-    3. The operator must have a valid semantic version
-    4. The operator must have a valid operator package manifest
-    5. The operator must have a valid bundle image
+1. The operator must be in a public container registry
+2. The operator must be in a public git repository
+3. The operator must have a valid semantic version
+4. The operator must have a valid operator package manifest
+5. The operator must have a valid bundle image
 
 
 ## Steps
 1. Create a bundle image
-    1. The bundle directory can be created with the following command
+    The bundle directory can be created with the following command
 
     - in your project directory, use the kustomize command to generate the manifests 
 
